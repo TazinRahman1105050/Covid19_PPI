@@ -7,3 +7,12 @@ Pair-wise protein interactions can be modeled as an unweighted, undirected graph
 <img width="1896" height="1032" alt="flow1" src="https://github.com/user-attachments/assets/f56bb058-f689-44ec-9258-24a7e8766a27" />
 
 We tried to find out if any centrality measure alone can identify hub and non-hub proteins. For this purpose, we first need to calculate the feature importance. One particular application of a random forest classifier is feature selection, which helps to get the relative importance of features in prediction. It uses the Gini coefficient to calculate feature importance. The Gini coefficient tells us how much the accuracy decreases if one feature is discarded. The larger the reduction of accuracy, the more important the feature is. Random  Forest classifier also generally achieves good accuracy as lots of decision trees participate in the decision-making process.
+
+Repository Files:
+There are three files in the repository
+
+# Analyze_cytoscape_result.py conatins the codes to analyze the result from file generated from cytoscape. This file contains 6 different centrlaity measures
+
+# Calculate_z_score.py contains the code to generate different centrality measures from python igraph and calculate z_score
+
+# RandomForest.py contains the file for random forest classifier
