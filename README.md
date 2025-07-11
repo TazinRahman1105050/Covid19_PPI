@@ -4,6 +4,7 @@ Viruses are parasites that lack the capacity to live and reproduce outside of a 
 In this work, the main objective is to identify the proteins targeted by the COVID-19 virus. There are several studies that have shown proteins are correlated with the topological properties of protein-protein interaction networks, for example, hubs that are \textit{"highly connected"} in a protein-protein interaction network tend to correspond to essential proteins. Similarly, multiple centrality measures are used to discover essential proteins based on the network topological features.
 
 Pair-wise protein interactions can be modeled as an unweighted, undirected graph, in which each node represents a protein and each edge (between two nodes) represents an interaction between two proteins. The modeling of PPI networks by simple graph structures is common in many applications, including the prediction of essential proteins within protein networks. But different edges may actually be of different levels of importance in biological networks as well as in other networks. On the other hand, gene expression data provides information about the genome under many different experimental conditions despite the large amount of inherent noise. The challenging task is to integrate the two data sources in order to treat each interaction in the PPI network in a quantitatively or qualitatively different way.
+<img width="1896" height="1032" alt="flow1" src="https://github.com/user-attachments/assets/f56bb058-f689-44ec-9258-24a7e8766a27" />
 
 ![image](![Uploading flow1.png…])
 
