@@ -5,7 +5,6 @@ In this work, the main objective is to identify the proteins targeted by the COV
 
 Pair-wise protein interactions can be modeled as an unweighted, undirected graph, in which each node represents a protein and each edge (between two nodes) represents an interaction between two proteins. The modeling of PPI networks by simple graph structures is common in many applications, including the prediction of essential proteins within protein networks. But different edges may actually be of different levels of importance in biological networks as well as in other networks. On the other hand, gene expression data provides information about the genome under many different experimental conditions despite the large amount of inherent noise. The challenging task is to integrate the two data sources in order to treat each interaction in the PPI network in a quantitatively or qualitatively different way.
 
-![image](![Uploading flow1.png…]()
-)
+![image](![Uploading flow1.png…])
 
 We tried to find out if any centrality measure alone can identify hub and non-hub proteins. For this purpose, we first need to calculate the feature importance. One particular application of a random forest classifier is feature selection, which helps to get the relative importance of features in prediction. It uses the Gini coefficient to calculate feature importance. The Gini coefficient tells us how much the accuracy decreases if one feature is discarded. The larger the reduction of accuracy, the more important the feature is. Random  Forest classifier also generally achieves good accuracy as lots of decision trees participate in the decision-making process.
