@@ -11,8 +11,8 @@ We tried to find out if any centrality measure alone can identify hub and non-hu
 Repository Files:
 There are three files in the repository
 
-# Analyze_cytoscape_result.py conatins the codes to analyze the result from file generated from cytoscape. This file contains 6 different centrlaity measures
+## Analyze_cytoscape_result.py conatins the codes to analyze the result from file generated from cytoscape. This file contains 6 different centrlaity measures
 
-# Calculate_z_score.py contains the code to generate different centrality measures from python igraph and calculate z_score
+## Calculate_z_score.py contains the code to generate different centrality measures from python igraph and calculate z_score
 
-# RandomForest.py contains the file for random forest classifier
+## RandomForest.py contains the file for random forest classifier
