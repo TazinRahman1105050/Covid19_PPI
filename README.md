@@ -1,2 +1,2 @@
 # Covid19_PPI
-Identifying protein targets by analyzing protein interactions between the host and pathogen is one of the keys to drug discovery.
+Viruses are parasites that lack the capacity to live and reproduce outside of a host body. Protein-protein interaction (PPI) between viral proteins and host proteins is indispensable for viral proteins to reach the host cells. Consequently, identification of the virus-host PPI network is the key to predicting the behavior of viruses, which in turn can be useful in designing antiviral drugs. 
